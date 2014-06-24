@@ -1,13 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
+import os.path
 
 def cache_data(url, fname):
-    page = requests.get(url)
-    with open(fname, 'w') as f:
-        f.write(page.text)
 
+    if os.path.isfile(fname):
+        print "data exists"
+    else:
+        page = requests.get(url)
+        with open(fname, 'w') as f:
+            f.write(page.text)
 
 def load_data(fname):
+
     f = open(fname)
     soup = BeautifulSoup(f.read(),"html.parser")
     return soup
@@ -17,26 +22,41 @@ def parse_data(soup):
     content = soup.select("div.content")[0]
     rows = soup.select("p.row")
 
+    data = []
+
     print "-------------"
     print "found rows: "
     print len(rows)
+    print "-------------"
 
     for row in rows:
        ismap = 0
        if len(row.select(".maptag")) == 0:
            ismap = 1
-       print row['data-pid'], ismap
+
+       data.append([row['data-pid'], ismap])
+           
+    return data
 
 def write_data():
     pass
 
 def main():
     
-    url = "http://bham.craigslist.org/hhh/index200.html#list"
-    fname = "text.html"
-    # cache_data(url, fname)
+    subdomain = "bham"
+    section = "hhh"
+    step = 100
+    directory = "data/"
+    fname_stub = "-".join([subdomain, section, str(step)])
+    ext = ".html"
+
+    url = "http://" + subdomain + ".craigslist.org/" + section + "/index" + str(step) + ".html#list"
+    fname = directory + fname_stub + ext
+
+    cache_data(url, fname)
     soup = load_data(fname)
-    parse_data(soup)
+    data = parse_data(soup)
+
 
 if __name__ == "__main__":
     print "welcome"
