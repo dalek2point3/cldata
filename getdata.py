@@ -12,22 +12,26 @@ def cache_data(url, fname):
             f.write(page.text)
 
 def load_data(fname):
-
     f = open(fname)
     soup = BeautifulSoup(f.read(),"html.parser")
     return soup
 
-def parse_data(soup):
+def check_rows(rows):
+    print "-------------"
+    print "found rows: " + str(len(rows))
+    print "-------------"
 
+def get_rows(soup):
     content = soup.select("div.content")[0]
     rows = soup.select("p.row")
+    return rows
+
+def parse_data(soup):
+
+    rows = get_rows(soup)
+    check_rows(rows)
 
     data = []
-
-    print "-------------"
-    print "found rows: "
-    print len(rows)
-    print "-------------"
 
     for row in rows:
        ismap = 0
@@ -59,39 +63,8 @@ def main():
 
 
 if __name__ == "__main__":
+
     print "welcome"
+    print "--------------"
     main()
 
-##http://bham.craigslist.org/hhh/index100.html#list
-
-
-
-##rows = content[0].select(".row")
-
-#.find_all({'class':'row'})
-
-#soup.select("[class~=sister]")
-
-
-#.find(class="row")
-
-#for link in soup.find_all('id'):
-#    print(link.get('href'))
-
-#{ "class" : "lime" })
-
-
-#tree = html.fromstring(page.text)
-
-#This will create a list of buyers:
-#xpath_string = '//*[@id="toc_rows"]/div[2]/p[1]'
-
-#items = tree.xpath(xpath_string)
-
-#print items
-
-#This will create a list of prices
-# prices = tree.xpath('//span[@class="item-price"]/text()')
-
-
-    
