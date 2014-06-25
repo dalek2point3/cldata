@@ -1,0 +1,711 @@
+region	name	lat	lon	hostname	county
+CA	SF bay area	37.500000	-122.250000	sfbay	US
+WA	seattle	47.606400	-122.331001	seattle	US
+NY	new york	40.714199	-74.006401	newyork	US
+MA	boston	42.358299	-71.060303	boston	US
+CA	los angeles	34.052200	-118.242996	losangeles	US
+CA	san diego	32.715302	-117.155998	sandiego	US
+OR	portland	45.523602	-122.675003	portland	US
+DC	washington, DC	38.889999	-77.029999	washingtondc	US
+IL	chicago	41.849998	-87.650002	chicago	US
+CA	sacramento	38.581699	-121.492996	sacramento	US
+CO	denver	39.739201	-104.984001	denver	US
+GA	atlanta	33.748901	-84.388100	atlanta	US
+TX	austin	30.266899	-97.742798	austin	US
+BC	vancouver, BC	49.250500	-123.112000	vancouver	CA
+PA	philadelphia	39.952202	-75.164200	philadelphia	US
+AZ	phoenix	33.448299	-112.072998	phoenix	US
+MN	minneapolis	44.980000	-93.263603	minneapolis	US
+FL	south florida	25.773899	-80.193901	miami	US
+TX	dallas	32.783298	-96.800003	dallas	US
+MI	detroit metro	42.331402	-83.045799	detroit	US
+TX	houston	29.763100	-95.363098	houston	US
+	london	51.517101	-0.106196	london	GB
+ON	toronto	43.648102	-79.404198	toronto	CA
+NV	las vegas	36.174999	-115.136002	lasvegas	US
+OH	cleveland	41.499401	-81.695602	cleveland	US
+HI	hawaii	21.311399	-157.796005	honolulu	US
+MO	st louis	38.627701	-90.242798	stlouis	US
+MO	kansas city	39.099701	-94.578300	kansascity	US
+LA	new orleans	29.972799	-90.058998	neworleans	US
+TN	nashville	36.165798	-86.784401	nashville	US
+PA	pittsburgh	40.440601	-79.996101	pittsburgh	US
+MD	baltimore	39.307999	-76.616997	baltimore	US
+OH	cincinnati	39.161900	-84.456902	cincinnati	US
+NC	raleigh	35.771900	-78.638901	raleigh	US
+FL	tampa bay	28.000000	-82.449997	tampa	US
+RI	rhode island	41.830200	-71.409103	providence	US
+FL	orlando	28.538099	-81.379402	orlando	US
+NY	buffalo	42.886398	-78.878601	buffalo	US
+NC	charlotte	35.226898	-80.843300	charlotte	US
+OH	columbus	39.961102	-82.998901	columbus	US
+CA	fresno	36.747799	-119.771004	fresno	US
+CT	hartford	41.763599	-72.685600	hartford	US
+IN	indianapolis	39.768299	-86.158096	indianapolis	US
+TN	memphis	35.149399	-90.048897	memphis	US
+WI	milwaukee	43.038898	-87.906403	milwaukee	US
+VA	norfolk	36.840000	-76.269997	norfolk	US
+QC	montreal	45.508099	-73.555000	montreal	CA
+NM	albuquerque	35.084400	-106.651001	albuquerque	US
+AK	anchorage	61.196201	-149.886002	anchorage	US
+ID	boise	43.613602	-116.202003	boise	US
+TX	san antonio	29.423901	-98.493301	sanantonio	US
+OK	oklahoma city	35.467499	-97.516098	oklahomacity	US
+NE	omaha	41.258598	-95.937500	omaha	US
+UT	salt lake	40.760799	-111.889999	saltlakecity	US
+AZ	tucson	32.221699	-110.926003	tucson	US
+KY	louisville	38.254200	-85.759399	louisville	US
+NY	albany	42.652500	-73.756699	albany	US
+VA	richmond	37.538300	-77.461502	richmond	US
+NC	greensboro	36.072498	-79.792198	greensboro	US
+CA	santa barbara	34.420799	-119.696999	santabarbara	US
+CA	bakersfield	35.373299	-119.017998	bakersfield	US
+NSW	sydney	-33.868301	151.209000	sydney	AU
+VIC	melbourne	-37.783298	144.966995	melbourne	AU
+QLD	brisbane	-27.466700	153.033005	brisbane	AU
+WA	perth	-31.955400	115.859001	perth	AU
+SA	adelaide	-34.933300	138.582993	adelaide	AU
+	auckland	-36.853001	174.764999	auckland	NZ
+OK	tulsa	36.153900	-95.992500	tulsa	US
+	manchester	53.480000	-2.240000	manchester	GB
+	birmingham, UK	52.480000	-1.910000	birmingham	GB
+	glasgow	55.869999	-4.270000	glasgow	GB
+	dublin	53.342800	-6.266100	dublin	IE
+	edinburgh	55.950001	-3.220000	edinburgh	GB
+ON	ottawa	45.421398	-75.691902	ottawa	CA
+AB	calgary	51.054401	-114.067001	calgary	CA
+AB	edmonton	53.547199	-113.500999	edmonton	CA
+MB	winnipeg	49.883301	-97.150002	winnipeg	CA
+FL	jacksonville	30.331900	-81.655800	jacksonville	US
+	paris	48.874199	2.346950	paris	FR
+	amsterdam	52.369999	4.890000	amsterdam	NL
+	barcelona	41.385700	2.169940	barcelona	ES
+	bangalore	12.983300	77.583298	bangalore	IN
+	mumbai	18.964701	72.825798	mumbai	IN
+	delhi	28.654400	77.225601	delhi	IN
+	hong kong	22.299999	114.167000	hongkong	HK
+	tokyo	35.683300	139.766998	tokyo	JP
+	singapore	1.296280	103.843002	singapore	SG
+	manila	14.592200	121.001999	manila	PH
+	mexico city	19.433333	-99.133333	mexicocity	MX
+NV	reno	39.529701	-119.813004	reno	US
+VT	vermont	44.461201	-73.193703	burlington	US
+OR	eugene	44.052200	-123.085999	eugene	US
+WA	spokane	47.658901	-117.425003	spokane	US
+CA	modesto	37.639198	-120.996002	modesto	US
+CA	stockton	37.957802	-121.290001	stockton	US
+IA	des moines	41.600601	-93.608902	desmoines	US
+KS	wichita	37.692200	-97.337196	wichita	US
+AR	little rock	34.746399	-92.289398	littlerock	US
+SC	columbia	34.000599	-81.035004	columbia	US
+CA	monterey	36.600300	-121.893997	monterey	US
+CA	orange co	33.731499	-117.862000	orangecounty	US
+CA	inland empire	34.052799	-117.627998	inlandempire	US
+	norway	59.919399	10.745700	oslo	NO
+	sweden	59.337399	18.060200	stockholm	SE
+	copenhagen	55.674999	12.568700	copenhagen	DK
+	berlin	52.523300	13.412700	berlin	DE
+	belgium	50.850000	4.350000	brussels	BE
+	madrid	40.400002	-3.683300	madrid	ES
+	milan	45.464001	9.191570	milan	IT
+	zurich	47.366699	8.550000	zurich	CH
+	sao paulo	-23.566999	-46.632999	saopaulo	BR
+	buenos aires	-34.603600	-58.381699	buenosaires	AR
+	belfast	54.599998	-5.916670	belfast	GB
+	cardiff	51.478001	-3.177100	cardiff	GB
+	bristol	51.459999	-2.600000	bristol	GB
+	liverpool	53.416698	-3.000000	liverpool	GB
+	seoul	37.583302	127.000000	seoul	KR
+	osaka	34.660301	135.522995	osaka	JP
+	rome	41.900002	12.500000	rome	IT
+	vienna	48.211899	16.359301	vienna	AT
+	leeds	53.810001	-1.550000	leeds	GB
+FL	west palm bch	26.715000	-80.053596	westpalmbeach	US
+FL	fort myers	26.629999	-81.849998	fortmyers	US
+NY	rochester, NY	43.154701	-77.615799	rochester	US
+AL	birmingham, AL	33.520599	-86.802498	bham	US
+SC	charleston	32.776402	-79.931099	charleston	US
+MI	grand rapids	42.963299	-85.668098	grandrapids	US
+NY	syracuse	43.048100	-76.147797	syracuse	US
+OH	dayton	39.758900	-84.191704	dayton	US
+TX	el paso	31.758600	-106.486000	elpaso	US
+KY	lexington	37.988701	-84.477699	lexington	US
+MS	jackson, MS	32.298599	-90.184700	jackson	US
+	shanghai	31.233299	121.467003	shanghai	CN
+	cape town	-33.976700	18.424400	capetown	ZA
+	moscow	55.750000	37.583302	moscow	RU
+	prague	50.078300	14.414100	prague	CZ
+	rio de janeiro	-22.908300	-43.243599	rio	BR
+	hamburg	53.568600	10.038600	hamburg	DE
+	frankfurt	50.116699	8.683330	frankfurt	DE
+	munich	48.133301	11.566700	munich	DE
+	st petersburg	59.922001	30.322300	stpetersburg	RU
+	greece	37.980999	23.716900	athens	GR
+	finland	60.182499	24.947201	helsinki	FI
+	geneva	46.200001	6.150000	geneva	CH
+	poland	52.232399	21.001699	warsaw	PL
+	turkey	41.042099	29.009399	istanbul	TR
+	marseille	43.297501	5.377200	marseilles	FR
+	lyon	45.766899	4.834200	lyon	FR
+	napoli	40.846001	14.251000	naples	IT
+	florence	43.771702	11.253600	florence	IT
+	budapest	47.500000	19.049999	budapest	HU
+	beijing	39.901299	116.389000	beijing	CN
+	taiwan	23.766701	121.000000	taipei	TW
+	thailand	13.920200	101.016998	bangkok	TH
+	indonesia	-6.267000	106.800003	jakarta	ID
+	chile	-33.462399	-70.640701	santiago	CL
+	peru	-12.103800	-77.058098	lima	PE
+	tel aviv	32.083302	34.799999	telaviv	IL
+	jerusalem	31.787100	35.204800	jerusalem	IL
+	egypt	30.066700	31.247900	cairo	EG
+	newcastle, UK	54.977600	-1.613620	newcastle	GB
+WI	madison	43.073101	-89.401100	madison	US
+PA	harrisburg	40.273602	-76.884697	harrisburg	US
+PA	allentown	40.599998	-75.500000	allentown	US
+CT	new haven	41.308102	-72.928596	newhaven	US
+ME	maine	44.693199	-69.334602	maine	US
+NJ	north jersey	40.910000	-74.172997	newjersey	US
+NC	asheville	35.600800	-82.554199	asheville	US
+MI	ann arbor	42.270802	-83.726402	annarbor	US
+MA	western mass	42.349998	-73.000000	westernmass	US
+NS	halifax	44.637390	-63.588867	halifax	CA
+QC	quebec	46.890202	-71.218903	quebec	CA
+SK	saskatoon	52.136902	-106.641998	saskatoon	CA
+BC	victoria	48.432800	-123.334999	victoria	CA
+	venezuela	10.412200	-66.882004	caracas	VE
+	costa rica	9.924700	-84.078003	costarica	CR
+PR	puerto rico	18.261299	-66.435997	puertorico	PR
+	tijuana	32.530800	-117.019997	tijuana	MX
+	chennai	13.081000	80.274002	chennai	IN
+	hyderabad	17.366699	78.466698	hyderabad	IN
+	kolkata	22.569700	88.369698	kolkata	IN
+	johannesburg	-26.194901	28.037100	johannesburg	ZA
+FL	tallahassee	30.438101	-84.280800	tallahassee	US
+CA	chico	39.728600	-121.835999	chico	US
+CA	redding	40.586700	-122.390999	redding	US
+CA	humboldt	40.747398	-123.987999	humboldt	US
+IL	chambana	40.110001	-88.250000	chambana	US
+CA	san luis obispo	35.282799	-120.658997	slo	US
+MT	eastern montana	47.100000	-104.700000	montana	US
+DE	delaware	39.145699	-75.483498	delaware	US
+WV	west virginia	38.709999	-80.660004	wv	US
+SD	south dakota	44.296101	-99.236702	sd	US
+ND	north dakota	47.500000	-100.500000	nd	US
+WY	wyoming	43.004002	-108.153999	wyoming	US
+NH	new hampshire	43.654099	-71.564201	nh	US
+LA	baton rouge	30.458099	-91.140198	batonrouge	US
+AL	mobile	30.694201	-88.043098	mobile	US
+NY	ithaca	42.440601	-76.496902	ithaca	US
+TN	knoxville	35.960602	-83.920799	knoxville	US
+FL	pensacola	30.421101	-87.216904	pensacola	US
+OH	toledo	41.663898	-83.555298	toledo	US
+GA	savannah	32.050701	-81.103798	savannah	US
+LA	shreveport	32.468102	-93.771103	shreveport	US
+AL	montgomery	32.366699	-86.300003	montgomery	US
+CA	ventura	34.277000	-119.044998	ventura	US
+CA	palm springs	33.830299	-116.543999	palmsprings	US
+CO	colo springs	38.833900	-104.820999	cosprings	US
+	oxford	51.751099	-1.255830	oxford	GB
+MI	lansing	42.732498	-84.555603	lansing	US
+ON	hamilton	43.243999	-79.869003	hamilton	CA
+ON	kitchener	43.452801	-80.490799	kitchener	CA
+	emirates	25.269699	55.309502	dubai	AE
+OR	medford	42.326698	-122.874001	medford	US
+WA	bellingham	48.759701	-122.487000	bellingham	US
+NM	santa fe	35.686901	-105.936996	santafe	US
+FL	gainesville	29.651400	-82.324997	gainesville	US
+TN	chattanooga	35.045601	-85.309700	chattanooga	US
+MO	springfield	37.215302	-93.298103	springfield	US
+MO	columbia, MO	38.951698	-92.333900	columbiamo	US
+IL	rockford	42.271099	-89.093903	rockford	US
+IL	peoria	40.693600	-89.588898	peoria	US
+IL	springfield, IL	39.801701	-89.643600	springfieldil	US
+IN	fort wayne	41.130600	-85.128899	fortwayne	US
+IN	evansville	37.974701	-87.555801	evansville	US
+IN	south bend	41.683300	-86.250000	southbend	US
+IN	bloomington, IN	39.165298	-86.526398	bloomington	US
+MS	gulfport	30.367201	-89.092796	gulfport	US
+AL	huntsville	34.730301	-86.586098	huntsville	US
+OR	salem	44.943100	-123.033997	salem	US
+OR	bend	44.058300	-121.314003	bend	US
+ON	london, ON	43.033298	-81.150002	londonon	CA
+ON	windsor	42.287498	-83.005798	windsor	CA
+FL	ft lauderdale	26.121901	-80.143600	fortlauderdale	US
+FL	sarasota	27.336100	-82.530800	sarasota	US
+FL	daytona beach	29.210600	-81.023102	daytona	US
+MA	cape cod	41.688900	-70.296898	capecod	US
+MA	worcester	42.262501	-71.802803	worcester	US
+WI	green bay	44.519199	-88.019699	greenbay	US
+WI	eau claire	44.811401	-91.498299	eauclaire	US
+WI	appleton	44.261902	-88.415298	appleton	US
+AZ	flagstaff	35.198101	-111.651001	flagstaff	US
+	micronesia	13.450000	144.783005	micronesia	GU
+WA	yakima	46.602200	-120.504997	yakima	US
+NY	utica	43.100800	-75.233101	utica	US
+NY	binghamton	42.098598	-75.918297	binghamton	US
+NY	hudson valley	41.576698	-73.803398	hudsonvalley	US
+NY	long island	40.822102	-73.149696	longisland	US
+OH	akron-canton	41.081402	-81.519203	akroncanton	US
+OH	youngstown	41.099701	-80.649696	youngstown	US
+SC	greenville	34.852501	-82.394203	greenville	US
+SC	myrtle beach	33.688900	-78.886902	myrtlebeach	US
+MN	duluth	46.783298	-92.106400	duluth	US
+GA	augusta	33.470798	-81.974998	augusta	US
+GA	macon	32.840599	-83.632500	macon	US
+GA	athens, GA	33.960800	-83.378098	athensga	US
+MI	flint	43.012501	-83.687500	flint	US
+MI	saginaw	43.419399	-83.950798	saginaw	US
+MI	kalamazoo	42.291698	-85.587196	kalamazoo	US
+MI	yoopers	46.550098	-87.408302	up	US
+TX	mcallen	26.203100	-98.229698	mcallen	US
+TX	beaumont	30.076200	-94.112999	beaumont	US
+TX	corpus christi	27.800301	-97.396103	corpuschristi	US
+TX	brownsville	25.901400	-97.497200	brownsville	US
+TX	lubbock	33.577801	-101.855003	lubbock	US
+TX	odessa	31.845600	-102.366997	odessa	US
+TX	amarillo	35.221901	-101.831001	amarillo	US
+TX	waco	31.549200	-97.146400	waco	US
+TX	laredo	27.506100	-99.507202	laredo	US
+NC	winston-salem	36.099701	-80.244400	winstonsalem	US
+NC	fayetteville	35.052502	-78.878601	fayetteville	US
+NC	wilmington, NC	34.225601	-77.945000	wilmington	US
+PA	erie, PA	42.129200	-80.085297	erie	US
+PA	scranton	41.408901	-75.662804	scranton	US
+PA	state college	40.793301	-77.860298	pennstate	US
+PA	reading	40.335602	-75.927200	reading	US
+PA	lancaster, PA	40.037800	-76.305801	lancaster	US
+KS	topeka	39.048302	-95.677803	topeka	US
+CT	eastern CT	41.344101	-72.103600	newlondon	US
+NE	lincoln	40.799999	-96.666702	lincoln	US
+LA	lafayette	30.213900	-92.029404	lafayette	US
+LA	lake charles	30.214701	-93.208603	lakecharles	US
+CA	merced	37.302200	-120.482002	merced	US
+NJ	south jersey	39.480301	-75.013901	southjersey	US
+CO	fort collins	40.585300	-105.084000	fortcollins	US
+CO	high rockies	39.191700	-106.824699	rockies	US
+VA	roanoke	37.274101	-79.942001	roanoke	US
+VA	charlottesville	38.034500	-78.486504	charlottesville	US
+VA	blacksburg	37.229401	-80.414200	blacksburg	US
+UT	provo	40.233898	-111.657997	provo	US
+AR	fayetteville, AR	36.062500	-94.157204	fayar	US
+	pakistan	32.016201	71.692596	pakistan	PK
+	bangladesh	23.851101	89.925003	bangladesh	BD
+	beirut	33.883301	35.500000	beirut	LB
+	malaysia	3.570990	101.991997	malaysia	MY
+	panama	8.751540	-79.877197	panama	PA
+	caribbean	19.093300	-74.619102	caribbean	
+	portugal	38.716702	-9.133330	portugal	PT
+	christchurch	-43.500000	172.600006	christchurch	NZ
+	wellington	-41.288898	174.776993	wellington	NZ
+	durban	-29.843000	30.955400	durban	ZA
+PE	PEI	46.333302	-63.500000	pei	CA
+NL	st john's, NL	47.567500	-52.707222	newfoundland	CA
+	cote d'azur	43.702801	7.269170	cotedazur	FR
+IA	quad cities	41.511299	-90.594398	quadcities	US
+TX	east TX	32.351101	-95.300797	easttexas	US
+MI	northern MI	44.459301	-84.814499	nmi	US
+	venice	45.433300	12.316700	venice	IT
+	sicilia	37.553299	14.153100	sicily	IT
+	cambridge	52.209999	0.130000	cambridge	GB
+	cologne	50.936401	6.959500	cologne	DE
+	vietnam	13.994400	108.017998	vietnam	VN
+CO	pueblo	38.254398	-104.609001	pueblo	US
+MN	rochester, MN	44.021702	-92.469704	rmn	US
+	pune	18.523600	73.847801	pune	IN
+	aberdeen	57.150002	-2.100000	aberdeen	GB
+CO	boulder	40.014999	-105.269997	boulder	US
+CO	western slope	39.070400	-108.552002	westslope	US
+OR	oregon coast	43.396099	-124.167000	oregoncoast	US
+OR	east oregon	44.756500	-117.853996	eastoregon	US
+TN	tri-cities, TN	36.417400	-82.440697	tricities	US
+WA	tri-cities, WA	46.211399	-119.136002	kpr	US
+WA	wenatchee	47.423599	-120.308998	wenatchee	US
+TX	college station	30.627800	-96.334198	collegestation	US
+TX	killeen-temple	31.116899	-97.727501	killeen	US
+MD	eastern shore	38.770100	-76.072098	easternshore	US
+MD	western MD	39.651699	-78.765800	westmd	US
+FL	florida keys	24.666901	-81.544197	keys	US
+FL	space coast	28.613501	-80.693199	spacecoast	US
+FL	treasure coast	27.230801	-80.226303	treasure	US
+FL	ocala	29.186899	-82.140297	ocala	US
+NM	las cruces	32.319698	-106.764999	lascruces	US
+NC	eastern NC	35.584999	-77.372498	eastnc	US
+NC	outer banks	36.031898	-75.676598	outerbanks	US
+NY	watertown	43.974701	-75.911102	watertown	US
+NY	plattsburgh	44.699402	-73.453300	plattsburgh	US
+IA	iowa city	41.661098	-91.529999	iowacity	US
+IA	cedar rapids	42.008301	-91.643898	cedarrapids	US
+IA	sioux city	42.500000	-96.400002	siouxcity	US
+KY	bowling green	36.990299	-86.443604	bgky	US
+GA	columbus, GA	32.460800	-84.987801	columbusga	US
+IL	bloomington, IL	40.484200	-88.993599	bn	US
+IL	southern IL	37.727200	-89.216698	carbondale	US
+CA	visalia-tulare	36.330299	-119.291000	visalia	US
+KS	lawrence	38.971699	-95.235001	lawrence	US
+IN	terre haute	39.466702	-87.413902	terrehaute	US
+NJ	central NJ	40.363098	-74.661400	cnj	US
+OR	corvallis	44.564701	-123.261002	corvallis	US
+UT	ogden	41.223099	-111.973000	ogden	US
+UT	st george	37.095299	-113.578003	stgeorge	US
+SC	hilton head	32.191700	-80.743301	hiltonhead	US
+CT	northwest CT	41.914501	-73.276100	nwct	US
+PA	altoona	40.518600	-78.394997	altoona	US
+PA	poconos	41.248611	-75.248611	poconos	US
+PA	york, PA	39.962502	-76.728104	york	US
+AR	fort smith	35.385799	-94.398300	fortsmith	US
+AR	texarkana	33.424999	-94.047501	texarkana	US
+IN	tippecanoe	40.416698	-86.875298	tippecanoe	US
+IN	muncie	40.193298	-85.386398	muncie	US
+IA	dubuque	42.500599	-90.664398	dubuque	US
+WI	la crosse	43.801399	-91.239403	lacrosse	US
+TX	abilene	32.448601	-99.732803	abilene	US
+TX	wichita falls	33.913601	-98.493103	wichitafalls	US
+VA	lynchburg	37.403702	-79.170197	lynchburg	US
+VA	danville	36.587200	-79.404404	danville	US
+WA	pullman-moscow	46.732498	-117.171997	pullman	US
+MN	st cloud	45.560799	-94.162201	stcloud	US
+AZ	yuma	32.725300	-114.624001	yuma	US
+AL	tuscaloosa	33.209702	-87.569199	tuscaloosa	US
+AL	auburn	32.609699	-85.480797	auburn	US
+CA	gold country	38.732498	-120.801003	goldcountry	US
+MS	hattiesburg	31.326900	-89.290298	hattiesburg	US
+MS	north MS	34.358799	-89.526100	northmiss	US
+FL	lakeland	28.039200	-81.949997	lakeland	US
+KY	western KY	37.081474	-88.077393	westky	US
+MA	south coast	41.638500	-71.048599	southcoast	US
+NB	new brunswick	46.500000	-66.750000	newbrunswick	CA
+BC	kelowna	49.890202	-119.490997	kelowna	CA
+BC	kamloops	50.676701	-120.332001	kamloops	CA
+BC	nanaimo	49.164700	-123.938004	nanaimo	CA
+BC	prince george	53.913601	-122.750000	princegeorge	CA
+ON	sudbury	46.490799	-80.991203	sudbury	CA
+ON	kingston, ON	44.231400	-76.484703	kingston	CA
+ON	niagara region	43.088902	-79.332298	niagara	CA
+ON	thunder bay	48.402802	-89.267998	thunderbay	CA
+ON	peterborough	44.308998	-78.313004	peterborough	CA
+ON	barrie	44.394501	-79.690399	barrie	CA
+QC	sherbrooke	45.399899	-71.919899	sherbrooke	CA
+	haifa	32.799999	34.983299	haifa	IL
+	salvador, bahia	-12.983300	-38.516701	salvador	BR
+	colombia	5.068890	-74.526299	colombia	CO
+	valencia	39.476700	-0.374444	valencia	ES
+	sevilla	37.384300	-5.979310	sevilla	ES
+	bologna	44.500000	11.350000	bologna	IT
+	torino	45.069599	7.684940	torino	IT
+	brighton	50.830002	-0.155556	brighton	GB
+	devon & cornwall	50.572800	-4.498900	devon	GB
+	east midlands	53.240601	-0.539703	eastmids	GB
+	sheffield	53.383301	-1.466670	sheffield	GB
+	east anglia	52.633701	1.292610	norwich	GB
+	hampshire	51.091202	-1.218800	hampshire	GB
+	guadalajara	20.666100	-103.351997	guadalajara	MX
+	yucatan	20.645599	-88.593803	yucatan	MX
+	baja sur	25.846100	-111.973000	bajasur	MX
+	puerto vallarta	20.603100	-105.234001	pv	MX
+	monterrey	25.666700	-100.300003	monterrey	MX
+	guangzhou	23.145399	113.334999	guangzhou	CN
+	kerala	10.000000	76.500000	kerala	IN
+	toulouse	43.605301	1.442800	toulouse	FR
+	bordeaux	44.838600	-0.578333	bordeaux	FR
+	lille	50.632500	3.058330	lille	FR
+	strasbourg	48.582901	7.743750	strasbourg	FR
+	loire valley	45.986500	4.025120	loire	FR
+	stuttgart	48.776699	9.177500	stuttgart	DE
+	hannover	52.368900	9.712600	hannover	DE
+	dusseldorf	51.221100	6.779250	dusseldorf	DE
+AZ	prescott	34.540001	-112.468002	prescott	US
+NM	roswell	33.394199	-104.522003	roswell	US
+MN	mankato	44.163601	-93.999199	mankato	US
+OK	lawton	34.608601	-98.389999	lawton	US
+MO	joplin	37.084202	-94.513100	joplin	US
+ID	east idaho	43.452900	-112.782997	eastidaho	US
+AR	jonesboro	35.842201	-90.704201	jonesboro	US
+MI	jackson, MI	42.245800	-84.401398	jxn	US
+GA	valdosta	30.832500	-83.278603	valdosta	US
+KS	manhattan	39.183601	-96.571404	ksu	US
+	okinawa	26.333300	127.800003	okinawa	JP
+	goa	15.373300	73.939201	goa	IN
+	guanajuato	21.012800	-101.273003	guanajuato	MX
+NE	grand island	40.924999	-98.341698	grandisland	US
+OK	stillwater	36.115601	-97.058098	stillwater	US
+MI	central MI	43.598000	-84.780998	centralmich	US
+ND	fargo	46.877201	-96.789398	fargo	US
+OH	mansfield	40.758301	-82.515602	mansfield	US
+OH	lima-findlay	40.742500	-84.105301	limaohio	US
+OH	athens, OH	39.329201	-82.101402	athensohio	US
+WV	charleston, WV	38.349701	-81.632797	charlestonwv	US
+WV	morgantown	39.629398	-79.956100	morgantown	US
+WV	parkersburg	39.266701	-81.561699	parkersburg	US
+WV	huntington	38.419201	-82.445297	huntington	US
+WV	northern WV	40.063900	-80.721100	wheeling	US
+WV	eastern WV	39.456100	-77.964203	martinsburg	US
+IA	ames, IA	42.034698	-93.619698	ames	US
+NC	boone	36.216702	-81.674698	boone	US
+VA	harrisonburg	38.443298	-78.872803	harrisonburg	US
+UT	logan	41.735600	-111.834000	logan	US
+TX	san marcos	29.883101	-97.941101	sanmarcos	US
+	ahmedabad	23.033300	72.616699	ahmedabad	IN
+NY	catskills	42.000000	-74.383301	catskills	US
+NY	chautauqua	42.209702	-79.466698	chautauqua	US
+NY	elmira	42.089699	-76.808098	elmira	US
+CA	mendocino co	39.363098	-123.430000	mendocino	US
+CA	imperial co	32.963100	-115.487999	imperial	US
+CA	yuba-sutter	39.144402	-121.647003	yubasutter	US
+VA	fredericksburg	38.301800	-77.470802	fredericksburg	US
+WI	wausau	44.959202	-89.629997	wausau	US
+OR	roseburg	43.216702	-123.341003	roseburg	US
+MD	annapolis	38.978298	-76.492500	annapolis	US
+WA	skagit	48.384499	-122.357002	skagit	US
+NC	hickory	35.733101	-81.341400	hickory	US
+PA	williamsport	41.241100	-77.001404	williamsport	US
+SC	florence, SC	34.195301	-79.762802	florencesc	US
+TN	clarksville, TN	36.529701	-87.359398	clarksville	US
+WA	olympic pen	47.798302	-123.617996	olympic	US
+AL	dothan, AL	31.223101	-85.390602	dothan	US
+AZ	sierra vista	31.554399	-110.303001	sierravista	US
+ID	twin falls	42.563099	-114.459999	twinfalls	US
+TX	galveston	29.281099	-94.825798	galveston	US
+BC	fraser valley	49.051399	-122.278999	abbotsford	CA
+BC	whistler, BC	50.124401	-122.959999	whistler	CA
+BC	comox valley	49.700901	-125.001999	comoxvalley	CA
+BC	kootenays	49.511101	-115.766998	cranbrook	CA
+AB	red deer	52.274700	-113.815002	reddeer	CA
+AB	lethbridge	49.696098	-112.830002	lethbridge	CA
+AB	ft mcmurray	56.742199	-111.443001	ftmcmurray	CA
+SK	regina	50.455299	-104.610001	regina	CA
+QC	trois-rivieres	46.356899	-72.546204	troisrivieres	CA
+QC	saguenay	48.410099	-71.063698	saguenay	CA
+ON	cornwall, ON	45.029999	-74.739998	cornwall	CA
+ON	guelph	43.544601	-80.255096	guelph	CA
+ON	belleville, ON	44.166698	-77.383301	belleville	CA
+ON	chatham-kent	42.411289	-82.194214	chatham	CA
+ON	sault ste marie, ON	46.519199	-84.322098	soo	CA
+ON	sarnia	42.966702	-82.400002	sarnia	CA
+ON	owen sound	44.574799	-80.952797	owensound	CA
+NT	territories	62.466599	-114.445000	territories	CA
+NSW	canberra	-35.282799	149.130997	canberra	AU
+TAS	tasmania	-42.880600	147.324997	hobart	AU
+NT	darwin	-12.466700	130.832993	darwin	AU
+	nottingham	52.970001	-1.180000	nottingham	GB
+	kent	51.255001	0.863800	kent	GB
+	bath	51.383301	-2.366700	bath	GB
+	coventry	52.408100	-1.510600	coventry	GB
+	derby	52.921902	-1.475800	derby	GB
+	essex	51.783100	0.666733	essex	GB
+	dundee	56.450001	-2.983330	dundee	GB
+	shenzhen	22.542999	114.056999	shenzhen	CN
+	hangzhou	30.273100	120.177002	hangzhou	CN
+	nagoya	35.166698	136.917007	nagoya	JP
+	sapporo	43.066700	141.350006	sapporo	JP
+	fukuoka	33.585800	130.403000	fukuoka	JP
+	hiroshima	34.384800	132.455002	hiroshima	JP
+	chihuahua	28.500000	-106.000000	chihuahua	MX
+	hermosillo	29.083300	-110.949997	hermosillo	MX
+	veracruz	19.187201	-96.136398	veracruz	MX
+	puebla	19.046900	-98.209396	puebla	MX
+	mazatlan	23.233101	-106.411003	mazatlan	MX
+	oaxaca	17.083300	-96.750000	oaxaca	MX
+	ciudad juarez	31.737700	-106.487000	juarez	MX
+	acapulco	16.851700	-99.909698	acapulco	MX
+	belo horizonte	-19.891701	-43.947800	belohorizonte	BR
+	brasilia	-15.788300	-47.926498	brasilia	BR
+	porto alegre	-30.004900	-51.185299	portoalegre	BR
+	recife	-8.055560	-34.891102	recife	BR
+	curitiba	-25.468700	-49.253502	curitiba	BR
+	fortaleza	-3.828630	-38.595001	fortaleza	BR
+	heidelberg	49.396702	8.679200	heidelberg	DE
+	leipzig	51.333333	12.383333	leipzig	DE
+	dresden	51.049999	13.733300	dresden	DE
+	bremen	53.076900	8.808890	bremen	DE
+	essen / ruhr	51.466702	4.466670	essen	DE
+	montpellier	43.611900	3.877220	montpellier	FR
+	grenoble	45.189999	5.720000	grenoble	FR
+	brittany	48.106098	-1.671300	rennes	FR
+	normandy	49.436901	1.087650	rouen	FR
+	basel	47.566002	7.600000	basel	CH
+	bern	46.953999	7.447360	bern	CH
+	perugia	43.116699	12.383300	perugia	IT
+	genoa	44.416698	8.923890	genoa	IT
+	sardinia	40.000000	9.000000	sardinia	IT
+	alicante	38.349998	-0.480000	alicante	ES
+	baleares	39.605701	2.966310	baleares	ES
+	bilbao	43.250000	-2.966700	bilbao	ES
+	cadiz	36.532299	-6.291730	cadiz	ES
+	canarias	28.480801	-16.273800	canarias	ES
+	granada	37.174198	-3.597500	granada	ES
+	malaga	36.711899	-4.435730	malaga	ES
+	lisbon	38.700001	-9.183300	lisbon	PT
+	porto	41.166698	-8.583330	porto	PT
+	faro / algarve	37.020000	-7.930000	faro	PT
+	montevideo	-34.866699	-56.166698	montevideo	UY
+	luxembourg	49.611698	6.130000	luxembourg	LU
+	ecuador	-0.225219	-78.519302	quito	EC
+	croatia	45.813499	15.985100	zagreb	HR
+	davao city	7.078410	125.612000	davaocity	PH
+	cebu	10.426400	123.797997	cebu	PH
+	indore	22.723600	75.860603	indore	IN
+	jaipur	26.920000	75.820000	jaipur	IN
+	west bank	31.966700	35.299999	ramallah	PS
+WI	kenosha-racine	42.584702	-87.821098	racine	US
+WI	janesville	42.682800	-89.018600	janesville	US
+MI	muskegon	43.234200	-86.248299	muskegon	US
+MI	port huron	42.970798	-82.425003	porthuron	US
+MD	southern MD	38.534199	-76.783401	smd	US
+FL	st augustine	29.894400	-81.314697	staugustine	US
+TN	jackson, TN	35.614399	-88.813904	jacksontn	US
+AL	gadsden	34.014198	-86.006699	gadsden	US
+AL	the shoals	34.799702	-87.677200	shoals	US
+NJ	jersey shore	40.222500	-74.012199	jerseyshore	US
+FL	panama city, FL	30.158600	-85.660301	panamacity	US
+LA	monroe, LA	32.510300	-92.095001	monroe	US
+TX	victoria, TX	28.805000	-97.003304	victoriatx	US
+AZ	mohave co	35.285999	-114.083000	mohave	US
+MO	southeast MO	36.879601	-89.587997	semo	US
+IA	waterloo	42.492500	-92.345802	waterloo	US
+NM	farmington, NM	36.728100	-108.218002	farmington	US
+IL	decatur, IL	39.840302	-88.954697	decatur	US
+GA	brunswick, GA	31.149700	-81.491699	brunswick	US
+WI	sheboygan, WI	43.750801	-87.714401	sheboygan	US
+MI	southwest MI	41.984001	-86.066902	swmi	US
+OH	sandusky	41.448898	-82.708099	sandusky	US
+	romania	44.433300	26.100000	bucharest	RO
+	ghana	5.550000	-0.216667	accra	GH
+	ethiopia	9.033330	38.700001	addisababa	ET
+	kuwait	29.369699	47.978298	kuwait	KW
+	bolivia	-19.043100	-65.259201	lapaz	BO
+	reykjavik	64.146004	-21.942301	reykjavik	IS
+	morocco	34.020000	-6.830000	casablanca	MA
+	tunisia	36.802799	10.179700	tunis	TN
+	kenya	-1.283330	36.816700	kenya	KE
+	ukraine	50.433300	30.516701	ukraine	UA
+	bulgaria	42.697498	23.324100	bulgaria	BG
+	guatemala	14.621100	-90.526901	guatemala	GT
+	nicaragua	12.150800	-86.268303	managua	NI
+	el salvador	13.708600	-89.203102	elsalvador	SV
+	iraq	33.338600	44.393902	baghdad	IQ
+	iran	35.671902	51.424400	tehran	IR
+QLD	gold coast	-28.000000	153.432999	goldcoast	AU
+NSW	newcastle, NSW	-32.927101	151.776001	ntl	AU
+QLD	cairns	-16.916700	145.766998	cairns	AU
+NSW	wollongong	-34.433300	150.882996	wollongong	AU
+	dunedin	-45.891918	170.506439	dunedin	NZ
+	pretoria	-25.706900	28.229401	pretoria	ZA
+	sendai	38.266667	140.866667	sendai	JP
+	wuhan	30.591000	114.305000	wuhan	CN
+	shenyang	41.803800	123.434100	shenyang	CN
+	nanjing	32.050000	118.766667	nanjing	CN
+	dalian	38.912201	121.601997	dalian	CN
+	chongqing	29.558333	106.566667	chongqing	CN
+	chengdu	30.666700	104.067001	chengdu	CN
+	xi'an	34.266667	108.900000	xian	CN
+	cagayan de oro	8.482220	124.647003	cdo	PH
+	iloilo	10.696900	122.564003	iloilo	PH
+	bacolod	10.631100	122.978996	bacolod	PH
+	zamboanga	6.910280	122.073997	zamboanga	PH
+	pampanga	15.223300	120.579002	pampanga	PH
+	bicol region	13.500000	123.500000	naga	PH
+	chandigarh	30.737200	76.787201	chandigarh	IN
+	lucknow	26.847000	80.947000	lucknow	IN
+	bhubaneswar	20.270000	85.840000	bhubaneswar	IN
+	surat surat	21.166700	72.833298	surat	IN
+	nuremberg	49.447800	11.068300	nuremberg	DE
+	lausanne	46.518902	6.676360	lausanne	CH
+	virgin islands	18.341900	-64.930702	virgin	VI
+	dominican	18.466700	-69.900002	santodomingo	DO
+	kaiserslautern	49.450001	7.750000	kaiserslautern	DE
+AB	medicine hat	50.050098	-110.667999	hat	CA
+AB	peace country	56.250099	-117.286003	peace	CA
+BC	cariboo	53.169827	-122.527771	cariboo	CA
+BC	sunshine coast	49.998901	-123.753998	sunshine	CA
+BC	skeena-bulkley	54.232800	-129.837006	skeena	CA
+NT	yellowknife	62.456001	-114.352997	yellowknife	CA
+YK	whitehorse	60.716099	-135.054001	whitehorse	CA
+ON	brantford	43.133400	-80.266403	brantford	CA
+MI	the thumb	43.417019	-83.092346	thumb	US
+MI	battle creek	42.321201	-85.179703	battlecreek	US
+MI	monroe	41.916000	-83.397697	monroemi	US
+MI	holland	42.787498	-86.108902	holland	US
+WI	northern WI	45.638901	-89.412498	northernwi	US
+WV	southern WV	37.779499	-81.183296	swv	US
+MD	frederick	39.414299	-77.410500	frederick	US
+NC	jacksonville, NC	34.758801	-77.424400	onslow	US
+GA	statesboro	32.448799	-81.783203	statesboro	US
+GA	northwest GA	34.500000	-84.942001	nwga	US
+GA	albany, GA	31.575026	-84.159393	albanyga	US
+FL	lake city	30.189199	-82.639503	lakecity	US
+FL	heartland FL	27.539200	-81.509903	cfl	US
+FL	okaloosa	30.762100	-86.570503	okaloosa	US
+MS	meridian	32.364300	-88.703697	meridian	US
+MS	southwest MS	31.554199	-91.387497	natchez	US
+LA	houma	29.595800	-90.719498	houma	US
+LA	central LA	31.297327	-92.469177	cenla	US
+TX	deep east TX	31.604271	-94.654083	nacogdoches	US
+TX	san angelo	31.452999	-100.452499	sanangelo	US
+TX	del rio	29.372601	-100.898438	delrio	US
+TX	southwest TX	29.200123	-103.293457	bigbend	US
+TX	texoma	33.832001	-96.571098	texoma	US
+OK	northwest OK	36.431702	-97.895302	enid	US
+AZ	show low	34.254200	-110.029999	showlow	US
+NV	elko	40.832401	-115.763000	elko	US
+NM	clovis-portales	34.406910	-103.200073	clovis	US
+ID	lewiston	46.392399	-116.992996	lewiston	US
+WA	moses lake	47.130100	-119.278000	moseslake	US
+MT	missoula	46.872101	-113.994003	missoula	US
+MT	billings	45.783298	-108.500999	billings	US
+MT	bozeman	45.679699	-111.039001	bozeman	US
+MT	helena	46.592842	-112.022095	helena	US
+MT	great falls	47.500198	-111.301003	greatfalls	US
+MT	butte	46.004593	-112.543945	butte	US
+MT	kalispell	48.195801	-114.313004	kalispell	US
+MN	bemidji	47.473598	-94.880302	bemidji	US
+MN	brainerd	46.354511	-94.196777	brainerd	US
+MN	southwest MN	44.447201	-95.787804	marshall	US
+ND	bismarck	46.807579	-100.777588	bismarck	US
+ND	grand forks	47.925301	-97.032898	grandforks	US
+NE	north platte	41.123901	-100.764999	northplatte	US
+NE	scottsbluff	41.866600	-103.667000	scottsbluff	US
+TN	cookeville	36.162800	-85.501602	cookeville	US
+IN	richmond, IN	39.829632	-84.890671	richmondin	US
+IN	kokomo	40.486401	-86.133598	kokomo	US
+KY	owensboro	37.774200	-87.113297	owensboro	US
+KY	eastern KY	37.516998	-82.806000	eastky	US
+OR	klamath falls	42.224899	-121.781998	klamath	US
+AK	southeast AK	58.355629	-134.571533	juneau	US
+AK	fairbanks	64.837799	-147.716003	fairbanks	US
+AK	kenai	60.554401	-151.257996	kenai	US
+SD	sioux falls	43.549999	-96.700302	siouxfalls	US
+SD	rapid city	44.080502	-103.231003	rapidcity	US
+SD	central SD	44.551334	-100.579834	csd	US
+SD	northeast SD	45.336700	-97.646484	nesd	US
+NY	potsdam-massena	44.668652	-74.998169	potsdam	US
+NY	oneonta	42.447781	-75.069580	oneonta	US
+NY	finger lakes	42.516651	-76.816406	fingerlakes	US
+NY	glens falls	43.309502	-73.643997	glensfalls	US
+KS	southwest KS	37.046410	-100.931396	swks	US
+KS	northwest KS	39.095963	-100.502930	nwks	US
+KS	southeast KS	37.230328	-95.718384	seks	US
+KS	salina	38.825001	-97.607498	salina	US
+IA	southeast IA	41.007500	-92.408798	ottumwa	US
+IA	mason city	43.153599	-93.200996	masoncity	US
+IA	fort dodge	42.497501	-94.167999	fortdodge	US
+MO	st joseph	39.768600	-94.846603	stjoseph	US
+MO	lake of ozarks	38.202499	-92.626297	loz	US
+MO	kirksville	40.194801	-92.583298	kirksville	US
+IL	western IL	39.935013	-91.389771	quincy	US
+IL	la salle co	41.337639	-89.082642	lasalle	US
+IL	mattoon	39.483101	-88.372803	mattoon	US
+OH	ashtabula	41.865101	-80.789803	ashtabula	US
+OH	chillicothe	39.333099	-82.982399	chillicothe	US
+OH	zanesville	39.940300	-82.013199	zanesville	US
+OH	tuscarawas co	40.450100	-81.466499	tuscarawas	US
+NY	twin tiers	41.875301	-78.875000	twintiers	US
+PA	cumberland val	39.933300	-77.633301	chambersburg	US
+PA	meadville	41.641399	-80.151497	meadville	US
+CA	susanville	40.416302	-120.653000	susanville	US
+CA	siskiyou co	41.208199	-122.272003	siskiyou	US
+CA	hanford	36.327400	-119.646004	hanford	US
+CA	santa maria	34.963799	-120.433296	santamaria	US
+VA	winchester	39.178299	-78.166603	winchester	US
+VA	southwest VA	36.892803	-82.084351	swva	US
+CO	eastern CO	39.232254	-102.832031	eastco	US
