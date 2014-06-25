@@ -1,6 +1,8 @@
 import json
 from pprint import pprint
 
+## generate a list of all craigslist sites and their lat / lon locations
+
 ## you can download this file from 
 ## http://www.craigslist.org/about/areas.json
 
@@ -17,9 +19,6 @@ with open(outfile, "w") as f:
     for el in data:
         row = [el["region"], el["name"], el["lat"], el["lon"], el["hostname"], el["country"]]
 
-        #for k,v in el.iteritems():
-        #    row.append(v.strip())
-        
         line = "\t".join(row) + "\n"
         f.write(line)
 
