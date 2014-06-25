@@ -1,4 +1,4 @@
-region	name	lat	lon	hostname	county
+region	name	lat	lon	hostname	country
 CA	SF bay area	37.500000	-122.250000	sfbay	US
 WA	seattle	47.606400	-122.331001	seattle	US
 NY	new york	40.714199	-74.006401	newyork	US
