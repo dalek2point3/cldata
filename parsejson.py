@@ -1,9 +1,12 @@
 import json
 from pprint import pprint
 
-json_data=open('cldir/areas.json')
+## you can download this file from 
+## http://www.craigslist.org/about/areas.json
 
+json_data=open('areas.json')
 data = json.load(json_data)
+
 outfile = "areas.csv"
 header = ["region","name","lat","lon","hostname","country"]
 
