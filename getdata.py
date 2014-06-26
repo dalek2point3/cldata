@@ -9,6 +9,7 @@ def cache_data(url, fname):
         print "data exists"
     else:
         page = requests.get(url)
+        print "got file"
         with open(fname, 'w') as f:
             f.write(page.text)
 
@@ -45,7 +46,10 @@ def parse_data(soup):
        if len(row.select("span.px")[0].select("span.p")) != 0:
            ispix = "pic"
 
-       date = row.select("span.date")[0].text
+       try:
+           date = row.select("span.date")[0].text
+       except IndexError:
+           date = "NA"
 
        try:
            price = row.select("span.price")[0].text
@@ -58,16 +62,19 @@ def parse_data(soup):
 
        link = row.select("span.pl")[0].find(href=re.compile("html"))
        href = link['href']
-
        # title = link.text
+
        try:
            area = row.select("span.pnr")[0].find("small").text
        except AttributeError:
            area = "NA"
 
-       gc = row.select("a.gc")[0].text
+       try:
+           section = row.select("a.gc")[0].text
+       except IndexError:
+           section = "NA"
 
-       data.append([row['data-pid'], ismap, ispix, date, price, gc, href, area])
+       data.append([row['data-pid'], ismap, ispix, date, price, section, href, area])
            
     return data
 
@@ -82,23 +89,33 @@ def write_data(data, outfile, subdomain):
             
             f.write(line)
 
-def main():
-    
-    subdomain = "bham"
-    section = "hhh"
-    step = 100
-    directory = "data/"
-    fname_stub = "-".join([subdomain, section, str(step)])
-    ext = ".html"
-    outfile = "test.tsv"
+def get_block(step, section, subdomain):
 
-    url = "http://" + subdomain + ".craigslist.org/" + section + "/index" + str(step) + ".html#list"
+    ext = ".html"
+    directory = "data/"
+
+    fname_stub = "-".join([subdomain, section, str(step)])
+    outfile = subdomain + "-" + str(step) + ".tsv"
+
+    # url = "http://" + subdomain + ".craigslist.org/" + section + "/index" + str(step) + ".html#list"
+    url = "http://"+subdomain+".craigslist.org/search/apa?s="+str(step)
+
     fname = directory + fname_stub + ext
 
-    # cache_data(url, fname)
+    cache_data(url, fname)
     soup = load_data(fname)
     data = parse_data(soup)
     write_data(data, outfile, subdomain)
+
+
+def main():
+    
+    step = 200
+    section = "hhh"
+    subdomain = "bham"
+
+    get_block(step, section, subdomain)
+    
 
 if __name__ == "__main__":
 
