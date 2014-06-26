@@ -53,14 +53,15 @@ def main():
     directory = "data/"
     fname_stub = "-".join([subdomain, section, str(step)])
     ext = ".html"
+    outfile = ""
 
     url = "http://" + subdomain + ".craigslist.org/" + section + "/index" + str(step) + ".html#list"
     fname = directory + fname_stub + ext
 
-    cache_data(url, fname)
+    # cache_data(url, fname)
     soup = load_data(fname)
     data = parse_data(soup)
-
+    write_data(data)
 
 if __name__ == "__main__":
 

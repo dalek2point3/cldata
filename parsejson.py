@@ -9,7 +9,7 @@ from pprint import pprint
 json_data=open('areas.json')
 data = json.load(json_data)
 
-outfile = "areas.csv"
+outfile = "areas.tsv"
 header = ["region","name","lat","lon","hostname","country"]
 
 with open(outfile, "w") as f:
