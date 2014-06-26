@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os.path
 import re
+import csv
 
 def cache_data(url, fname):
 
@@ -11,7 +12,7 @@ def cache_data(url, fname):
         page = requests.get(url)
         print "got file"
         with open(fname, 'w') as f:
-            f.write(page.text)
+            f.write(page.text.encode('utf-8'))
 
 def load_data(fname):
     f = open(fname)
@@ -19,22 +20,31 @@ def load_data(fname):
     return soup
 
 def check_rows(rows):
-    print "-------------"
-    print "found rows: " + str(len(rows))
-    print "-------------"
+    ## print "found rows: " + str(len(rows))
+    return len(rows)
 
 def get_rows(soup):
-    content = soup.select("div.content")[0]
+
+    try:
+        content = soup.select("div.content")[0]
+    except IndexError: # no data found
+        return 0
+
     rows = soup.select("p.row")
+
+    if(check_rows(rows)==0):
+        return "Error"
+
     return rows
 
 def parse_data(soup):
 
     rows = get_rows(soup)
-    check_rows(rows)
+
+    if rows == "Error":
+        return "Error"
 
     data = []
-
 
     for row in rows:
        ismap = "nomap"
@@ -57,9 +67,6 @@ def parse_data(soup):
            price = "NA"
 
 
-## <p class="row" data-pid="4526693657"> <a class="i" data-id="0:00P0P_i3itTi5eQsI" href="/apa/4526693657.html"></a> <span class="star"></span> <span class="pl"> <span class="date">Jun 24</span> <a href="/apa/4526693657.html">2624 Niazuma Avenue South -- Highland Park, Birmingham AL 35205</a> </span> <span class="l2"> <span class="price">$795</span> / 2br -  <span class="pnr"> <small> (Highland Avenue South)</small> <span class="px"> <span class="p"> pic<span class="maptag" data-pid="4526693657">map</span></span></span> </span> <a class="gc" data-cat="apa" href="/apa/">apts/housing for rent</a> </span> </p>
-
-
        link = row.select("span.pl")[0].find(href=re.compile("html"))
        href = link['href']
        # title = link.text
@@ -79,7 +86,8 @@ def parse_data(soup):
     return data
 
 def write_data(data, outfile, subdomain):
-    
+
+    print "writing " + outfile
     with open(outfile, "w") as f:
         for item in data:
             item.append(subdomain)
@@ -93,9 +101,10 @@ def get_block(step, section, subdomain):
 
     ext = ".html"
     directory = "data/"
+    outdirectory = "parsed/"
 
     fname_stub = "-".join([subdomain, section, str(step)])
-    outfile = subdomain + "-" + str(step) + ".tsv"
+    outfile = outdirectory + subdomain + "-" + str(step) + ".tsv"
 
     # url = "http://" + subdomain + ".craigslist.org/" + section + "/index" + str(step) + ".html#list"
     url = "http://"+subdomain+".craigslist.org/search/apa?s="+str(step)
@@ -105,17 +114,36 @@ def get_block(step, section, subdomain):
     cache_data(url, fname)
     soup = load_data(fname)
     data = parse_data(soup)
-    write_data(data, outfile, subdomain)
 
+    if data != "Error":
+        write_data(data, outfile, subdomain)
+        return 1
+    else:
+        return 0
+
+def load_subd(areafile):
+    with open(areafile) as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        return [row["hostname"] for row in reader]
 
 def main():
     
-    step = 200
+    maxrange = 5
     section = "hhh"
     subdomain = "bham"
 
-    get_block(step, section, subdomain)
-    
+    areas = load_subd("areas.tsv")
+    areas = ["eastco", "swva"]
+
+    for area in areas:
+        print "+++++++++++++++++++++++++++++++++"
+        for x in range(0,maxrange):
+            print "--------------"
+            print "processing: " + area + " step:" + str(x*100)
+            status = get_block(x*100, section, area)
+            if status == 0:
+                print "No content found, skipping ... "
+                break
 
 if __name__ == "__main__":
 
