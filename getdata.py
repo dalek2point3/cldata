@@ -28,7 +28,7 @@ def get_rows(soup):
     try:
         content = soup.select("div.content")[0]
     except IndexError: # no data found
-        return 0
+        return "Error"
 
     rows = soup.select("p.row")
 
@@ -130,10 +130,9 @@ def main():
     
     maxrange = 5
     section = "hhh"
-    subdomain = "bham"
 
     areas = load_subd("areas.tsv")
-    areas = ["eastco", "swva"]
+    # areas = ["eastco", "swva"]
 
     for area in areas:
         print "+++++++++++++++++++++++++++++++++"
