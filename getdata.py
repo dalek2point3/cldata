@@ -121,18 +121,15 @@ def get_block(step, section, subdomain):
     else:
         return 0
 
-def load_subd(areafile):
+def load_subd(areafile, country):
     with open(areafile) as f:
         reader = csv.DictReader(f, delimiter="\t")
-        return [row["hostname"] for row in reader]
+        return [row["hostname"] for row in reader if row["country"]==country]
 
-def main():
+def get_data(areas):
     
     maxrange = 5
     section = "hhh"
-
-    areas = load_subd("areas.tsv")
-    # areas = ["eastco", "swva"]
 
     for area in areas:
         print "+++++++++++++++++++++++++++++++++"
@@ -143,6 +140,15 @@ def main():
             if status == 0:
                 print "No content found, skipping ... "
                 break
+
+
+def main():
+    
+    areas = load_subd("areas.tsv", "US")
+    # areas = ["eastco", "swva"]
+    print len(areas)
+    
+    # get_data(areas)
 
 if __name__ == "__main__":
 
